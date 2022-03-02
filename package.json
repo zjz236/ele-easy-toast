@@ -1,0 +1,20 @@
+{
+  "name": "ele-easy-toast",
+  "version": "v1.0.1",
+  "main": "src/index.js",
+  "files": ["src", "types"],
+  "typings": "types/index.d.ts",
+  "devDependencies": {
+    "core-js": "^3.6.5",
+    "element-ui": "^2.15.3",
+    "vue": "^2.6.11"
+  },
+  "gitHooks": {
+    "pre-commit": "lint-staged"
+  },
+  "lint-staged": {
+    "*.{js,jsx}": [
+      "git add"
+    ]
+  }
+}
